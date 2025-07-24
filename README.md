@@ -1,43 +1,41 @@
-# Proyecto de Dibujo una figura
+# README - Crossed Star Drawing Project
 
-## Introducción
-Este proyecto consiste en un script Python que dibuja una estrella cruzada (pentagrama) en el centro de una imagen cargada. Utiliza las bibliotecas OpenCV y NumPy para el procesamiento de imágenes y cálculos matemáticos. La estrella se dibuja conectando puntos no consecutivos de un pentágono regular imaginario.
+## Introduction
+This project consists of a Python script that draws a crossed star (pentagram) at the center of a loaded image. It uses OpenCV and NumPy libraries for image processing and mathematical calculations. The star is drawn by connecting non-consecutive points of an imaginary regular pentagon.
 
-## Tabla de Contenidos
-| Sección                | Descripción                                                                 |
+## Table of Contents
+| Section                | Description                                                                 |
 |------------------------|-----------------------------------------------------------------------------|
-| [Métodos](#métodos)    | Tabla que describe las funciones principales del código                     |
-| [Dependencias](#dependencias) | Lista de bibliotecas necesarias para ejecutar el proyecto               |
-| [Recursos Adicionales](#recursos-adicionales) | Enlaces a documentación relevante       |
-| [Conclusión](#conclusión) | Breve resumen del proyecto y sus capacidades                            |
-| [Autor](#autor)        | Información sobre el creador del proyecto                                  |
+| [Methods](#methods)    | Table describing the main functions in the code                             |
+| [Dependencies](#dependencies) | List of required libraries to run the project                           |
+| [Additional Resources](#additional-resources) | Links to relevant documentation       |
+| [Conclusion](#conclusion) | Brief summary of the project and its capabilities                        |
+| [Author](#author)        | Information about the project creator                                      |
 
-## Métodos
-| Función/Método          | Parámetros                          | Descripción                                                                 |
+## Methods
+| Function/Method          | Parameters                          | Description                                                                 |
 |-------------------------|-------------------------------------|-----------------------------------------------------------------------------|
-| `dibujar_estrella_cruzada` | `imagen`, `color`, `grosor`, `radio_factor` | Dibuja una estrella cruzada en la imagen proporcionada, centrada y con parámetros personalizables |
+| `dibujar_estrella_cruzada` | `imagen`, `color`, `grosor`, `radio_factor` | Draws a crossed star on the provided image, centered with customizable parameters |
 
-## Dependencias
-Para ejecutar este proyecto, necesitas tener instaladas las siguientes bibliotecas de Python:
-- OpenCV (`cv2`): Para el procesamiento de imágenes
-- NumPy (`numpy`): Para cálculos matemáticos
+## Dependencies
+To run this project, you need the following Python libraries:
+- OpenCV (`cv2`): For image processing
+- NumPy (`numpy`): For mathematical calculations
 
-Puedes instalarlas con:
+Install them with:
 ```bash
 pip install opencv-python numpy
 ```
 
-## Recursos Adicionales
-- [Documentación de OpenCV](https://docs.opencv.org/4.x/)
-- [Documentación de NumPy](https://numpy.org/doc/)
-- [Tutoriales de procesamiento de imágenes con OpenCV](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)
+## Additional Resources
+- [OpenCV Documentation](https://docs.opencv.org/4.x/)
+- [NumPy Documentation](https://numpy.org/doc/)
+- [OpenCV Image Processing Tutorials](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)
 
-## Conclusión
-Este proyecto demuestra cómo manipular imágenes usando Python y OpenCV, específicamente para dibujar formas geométricas complejas. Puede servir como base para proyectos más avanzados de procesamiento de imágenes o gráficos por computadora.
+## Conclusion
+This project demonstrates how to manipulate images using Python and OpenCV, specifically for drawing complex geometric shapes. It can serve as a foundation for more advanced image processing or computer graphics projects.
 
-## Autor
-[Tu Nombre]  
-[Tu correo electrónico o información de contacto]  
-[Tu sitio web o perfil de GitHub, si lo tienes]  
-
-*Nota: Reemplaza los campos entre corchetes con tu información personal.*
+## Author
+Zbigniew Milko  
+Gmail:milkozbigniew@gmail.com 
+Phone Number:+58 0412-0812321
